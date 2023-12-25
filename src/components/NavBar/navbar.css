@@ -1,6 +1,7 @@
 .navbar{
+background-color: rgb(30, 30, 30);
 height: 5rem;
-width: 100vh;
+width: 100%;
 margin: 1 1;
 padding: 1rem 2rem;
 display: flex;
@@ -12,6 +13,7 @@ z-index: 3;
 }
 
 .desktopMenuListItem{
+font-size: 1.1rem;
 margin:2rem;
 cursor: pointer;
 }
@@ -20,9 +22,6 @@ cursor: pointer;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid yellow;
 }
-
-
-
 
 .desktopMenuImg{
     object-fit: cover;
