@@ -48,7 +48,7 @@ body, h1, h2, h3, p, ul, li {
   
   .marquee-content {
     display: flex;
-    animation: marquee 30s linear infinite;
+    animation: marquee 25s linear infinite;
   }
   
   .slick-slide {
