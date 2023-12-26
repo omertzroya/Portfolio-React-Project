@@ -12,9 +12,10 @@
   position: absolute;
   z-index: -1;
   object-fit: cover;
-  width: 35%;
-  height: 100%;
-  left: 65%;
+  width: 500px;
+  height: 700px;
+  top:30%;
+  left: 50%;
 }
 
 .introContent {
@@ -26,11 +27,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
 }
 
 .hello {
   font-size: 3rem;
   font-weight: 100;
+
+  
 }
 
 .introName {
@@ -59,8 +63,9 @@
   .bg {
     width: 100%;
     height: 100%;
-    left: 0%;
-    bottom: 5%;
+    top:-40px;
+    left: 0px;
+    
   }
   .introContent {
     font-size: 9vw;
