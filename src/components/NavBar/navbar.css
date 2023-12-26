@@ -29,3 +29,41 @@ cursor: pointer;
     width: 1rem;
     margin:1rem;
 }
+
+.menuIcon{
+    display: none;
+    cursor: pointer;
+}
+
+/* Add this to your CSS */
+@media screen and (max-width: 1220px) {
+   .menuIcon{
+    display: block;
+    background:transparent;
+   }
+   .desktopMenuListItem{
+    display: none;
+    background:transparent;
+   }
+    .desktopMenu{
+    background:transparent;
+     width: 30px;
+     height: 30px;
+    }
+    .navbar{
+        background:transparent;
+    }
+    .navbar.open {
+        display: block;
+        .desktopMenuListItem {
+            display: block; /* Set display to block when navbar is open */
+            background: rgb(40,40, 40);
+          }
+          .desktopMenu{
+            background: rgb(40,40, 40);
+            width: 350px;
+            height: 400px;
+            border-radius: 2rem;
+            } 
+      }
+}
