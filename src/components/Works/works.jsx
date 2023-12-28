@@ -16,7 +16,7 @@ const Works = () => {
   return (
    <section  id="works">
  
-   <h2 className="workstitle">Portfolio</h2>
+   <h2 className="workstitle">Portfolio 🚀</h2>
    <span className="worksDesc">A Software developer equipped with proficiency in GIT and GitHub, bringing together analytical thinking, problem solving skills, and effective communication to achieve project goals.</span>
    <div className="worksImgs">
 
