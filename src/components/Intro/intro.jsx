@@ -1,5 +1,6 @@
 import  React from 'react';
 import "./intro.css";
+import bg from "../../assets/profile.png";
 import { Link } from 'react-scroll';
 import btnImg from "../../assets/hireme.png"; 
 import resumePDF from '../../assets/resume.pdf';
@@ -15,7 +16,7 @@ const Intro = () => {
         
          <div className="introContent">
          <span className="hello">Hello,</span>
-         <span className="introText"> I'm <span className="introName">Omer Tzroya <br/> </span> Software Developer </span>
+         <span className="introText"> I'm <span className="introName">Omer Tzroya  <img src={bg} alt="profile" className="bg" /><br/> </span> Software Developer </span>
          <p className="introPara">1️⃣ 🧑‍🏫 B.Sc Computer Science. <br/>
 2️⃣ experience in developing iOS applications with an app that I built and uploaded to the Appstore.<br/>
 3️⃣ experience in full-stack development with websites that I built for small businesses.<br/>

@@ -9,13 +9,13 @@
 }
 
 .bg {
-  position: absolute;
-  z-index: -1;
-  object-fit: cover;
-  width: 500px;
-  height: 700px;
-  top:30%;
-  left: 65%;
+ 
+ 
+ 
+  width: 90px;
+  height: 130px;
+  left: 41%;
+ 
 }
 
 .introContent {
@@ -62,10 +62,10 @@
 
 @media screen and (max-width: 1220px) {
   .bg {
-    width: 100%;
-    height: 100%;
-    top:-40px;
-    left: 0px;
+    
+    width: 90px;
+    height: 120px;
+    left: 41%;
     
   }
   .introContent {
