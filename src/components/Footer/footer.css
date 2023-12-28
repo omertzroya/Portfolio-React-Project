@@ -12,7 +12,9 @@ font-size: small;
 display: flex;
 flex-direction: row !important;
 object-fit: cover;
-width: 25px;
+width: 60px;
+height:60px;
+ 
 min-width: 3.5rem;
 margin: autu;
 padding: 0.25rem;

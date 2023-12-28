@@ -9,7 +9,7 @@ const Skills = () => {
   <div class="container">
     <div class="section-title">
    <p className="mySkillsPara">My skills</p>
- <p className="skillspara">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Nulla ultricies arcu ex, id bibendum diam imperdiet et.</p>
+ <p className="skillspara"> FullStack Developer || HTML5 || CSS3 || JavaScript || React || Node.js || SQL || iOS Developer || Swift || Git  </p>
     </div>
 
     <div class="row skills-content">
