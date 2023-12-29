@@ -39,10 +39,12 @@
   background: rgb(40,40,40);
 }
 
+
 .contactFormButton{
     background: white;
     border: none;
     border-radius: 0.5rem;
     margin: 2rem;
     padding: 0.75rem 3.5rem;
+    color: black;
 }

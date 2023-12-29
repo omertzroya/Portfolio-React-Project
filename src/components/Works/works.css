@@ -11,6 +11,9 @@ text-align: center;
 padding: 0 1rem;
 
 }
+.button{
+    color: black;
+}
 .workstitle{
     color: white;
     font-size: 3.5rem;
