@@ -20,10 +20,10 @@ const NavBar = () => {
           alt=""
           className="menuIcon"
           onClick={toggleNavbar}/>
-            <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500}  className="desktopMenuListItem  "   >Home</Link>
-            <Link  activeClass="active" to="skills" spy={true} smooth={true} offset={-100} duration={500}  className="desktopMenuListItem "  >My Skills</Link>
-            <Link activeClass="active" to="works" spy={true} smooth={true} offset={-100} duration={500}  className="desktopMenuListItem "  >Portfolio</Link>
-            <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-100} duration={500}  className="desktopMenuListItem "  >Contact Me</Link>
+            <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500}  className="desktopMenuListItem  "   >Home&nbsp; 🏠</Link>
+            <Link  activeClass="active" to="skills" spy={true} smooth={true} offset={-100} duration={500}  className="desktopMenuListItem "  >My Skills&nbsp; ⭐ </Link>
+            <Link activeClass="active" to="works" spy={true} smooth={true} offset={-100} duration={500}  className="desktopMenuListItem "  >Portfolio&nbsp; 💼</Link>
+            <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-100} duration={500}  className="desktopMenuListItem "  >Contact Me &nbsp;✉️ </Link>
             </div>    
         </nav>
     );

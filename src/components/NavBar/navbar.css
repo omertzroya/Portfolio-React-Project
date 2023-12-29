@@ -52,6 +52,7 @@ cursor: pointer;
     }
     .navbar{
         background:transparent;
+        margin-left: 10px;
     }
     .navbar.open {
         display: block;
@@ -65,5 +66,9 @@ cursor: pointer;
             height: 400px;
             border-radius: 2rem;
             } 
+        .navbar{
+            margin-left: 50px;
+        }
+            
       }
 }

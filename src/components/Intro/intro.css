@@ -9,13 +9,15 @@
 }
 
 .bg {
- 
- 
- 
-  width: 90px;
-  height: 130px;
-  left: 41%;
- 
+  width: 20%;
+  height: 60%;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: -1;
+
 }
 
 .introContent {
@@ -29,7 +31,11 @@
   justify-content: center;
   
 }
-
+.active {
+  color: yellow;
+  border-bottom: 3px solid yellow;
+  padding-bottom: 0.5rem;
+}
 .hello {
   font-size: 3rem;
   font-weight: 100;
@@ -62,14 +68,19 @@
 
 @media screen and (max-width: 1220px) {
   .bg {
-    
-    width: 90px;
-    height: 120px;
-    left: 41%;
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    top:35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1;
     
   }
   .introContent {
     font-size: 9vw;
+    margin-top: 200px;
   }
   .hello {
     font-size: 7vw;

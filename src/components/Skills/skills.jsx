@@ -8,7 +8,7 @@ const Skills = () => {
 <section id="skills" class="skills section-bg">
   <div class="container">
     <div class="section-title">
-   <p className="mySkillsPara">My skills</p>
+   <p className="mySkillsPara">My skills ⭐ </p>
  <p className="skillspara"> FullStack Developer || HTML5 || CSS3 || JavaScript || React || Node.js || SQL || iOS Developer || Swift || Git  </p>
     </div>
 
