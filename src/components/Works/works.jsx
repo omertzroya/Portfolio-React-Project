@@ -9,6 +9,9 @@ import photo6 from "../../assets/5.png";
 import photo7 from "../../assets/6.png";
 import photo8 from "../../assets/7.png";
 import photo9 from "../../assets/8.png";
+import photo10 from "../../assets/9.png";
+import photo11 from "../../assets/10.png";
+import photo12 from "../../assets/11.png";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
@@ -171,6 +174,53 @@ const Works = () => {
       </Card.Body>
     </Card>
 
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={photo10} style={{ width: '18rem' , height:"13rem"}} />
+      <Card.Body>
+        <Card.Title className="titleCard">Gender Prediction from Text</Card.Title>
+        <Card.Text>
+        This project focuses on predicting the gender of the author based on textual content. The task involves training machine learning models to classify whether a given text is written by a male or female author.
+        </Card.Text>
+        <Button className="button"
+                    variant="primary"
+                    onClick={() => {
+                        window.open('https://github.com/omertzroya/Machine-Learning-Text-Analysis-Python-Project', '_blank');
+                    }}
+                >Link to GitHub</Button>
+      </Card.Body>
+    </Card>
+
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={photo11} style={{ width: '18rem' , height:"13rem"}} />
+      <Card.Body>
+        <Card.Title className="titleCard">Booking Hotel Data Analysis and Rating Prediction</Card.Title>
+        <Card.Text>
+        This project involves the comprehensive analysis of hotel data collected from booking.com, spanning various cities worldwide. The project is divided into four key parts: data crawling, data cleaning and formatting, exploratory data analysis (EDA) visualization, and machine learning (ML) model implementation.
+        </Card.Text>
+        <Button className="button"
+                    variant="primary"
+                    onClick={() => {
+                        window.open('https://github.com/omertzroya/Data-science-CrawlingBooking-Python-Project', '_blank');
+                    }}
+                >Link to GitHub</Button>
+      </Card.Body>
+    </Card>
+
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={photo12} style={{ width: '18rem' , height:"13rem"}} />
+      <Card.Body>
+        <Card.Title className="titleCard">Cover Letter Creator</Card.Title>
+        <Card.Text>
+        The Cover Letter Creator is a web application that leverages the power of the OpenAI Language Model (LLM) to generate personalized cover letters for LinkedIn job postings using Langchain. This project consists of a Flask-based backend and a user-friendly HTML/JavaScript front-end.
+        </Card.Text>
+        <Button className="button"
+                    variant="primary"
+                    onClick={() => {
+                        window.open('https://github.com/omertzroya/Linkedin-Cover-Letter-Generator-Extension-Using-LLM', '_blank');
+                    }}
+                >Link to GitHub</Button>
+      </Card.Body>
+    </Card>
 
    </div>
 
